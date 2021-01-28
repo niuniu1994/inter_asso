@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: kainingxin
+    password: 86537161
+    url: jdbc:postgresql://localhost:5432/interasso
+  jpa:
+    hibernate:
+      ddl-auto: create
